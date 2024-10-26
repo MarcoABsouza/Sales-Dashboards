@@ -11,7 +11,6 @@ Este repositório contém uma análise detalhada das vendas de um supermercado f
   - [Métodos de Pagamento](#métodos-de-pagamento)
   - [Vendas por Linha de Produto](#vendas-por-linha-de-produto)
   - [Vendas por Hora](#vendas-por-hora)
-- [Como Executar o Projeto](#como-executar-o-projeto)
 - [Conclusão e Próximos Passos](#conclusão-e-próximos-passos)
 
 ---

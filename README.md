@@ -11,6 +11,7 @@ Este repositório contém uma análise detalhada das vendas de um supermercado f
   - [Métodos de Pagamento](#métodos-de-pagamento)
   - [Vendas por Linha de Produto](#vendas-por-linha-de-produto)
   - [Vendas por Hora](#vendas-por-hora)
+- [Como Executar o Projeto](#executa-o-projeto)
 - [Conclusão e Próximos Passos](#conclusão-e-próximos-passos)
 
 ---
@@ -41,6 +42,25 @@ Ao agrupar as vendas por linha de produto, conseguimos identificar as categorias
 ### 4️⃣ Vendas por Hora
 Exploramos os horários de pico das vendas, o que nos ajuda a otimizar a alocação de funcionários e planejar campanhas de marketing em horários estratégicos, maximizando as oportunidades de vendas.
 
+## 🧰 Tecnologias Utilizadas:
+Python: Pandas para manipulação de dados,Plotly para visualização de gráficos e Streamlit para aplicação na web.
+
+## 📂 Estrutura do Projeto: 
+Sample - Superstore.xls: Contém o dataset utilizado para a análise.
+app.py: Aplicação do python para rodar o programa.
+README.md: Documentação do projeto.
+
+## 🔍 Como Usar
+- instalar as dependências: Pandas, Streamlit e Plotly
+  
+  
+      pip install <biblioteca>
+
+  
+- Depois de instalar as bibliotecas, basta rodar o código abaixo:
+
+        streamlit run app.py
+  
 ## Conclusão e Próximos Passos
 
 Essas análises fornecem uma base sólida para entender o desempenho das vendas no supermercado e as preferências dos clientes. Com base nesses dados, futuros passos podem incluir:

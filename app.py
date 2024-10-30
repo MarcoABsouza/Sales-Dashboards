@@ -56,7 +56,10 @@ df_selection = df.query(
     "City == @city & Customer_type == @customer_type & Gender == @gender"
 )
 
-
+# Check if the dataframe is empty:
+if df_selection.empty:
+    st.warning("No data available based on the current filter settings!")
+    st.stop() # This will halt the app from further execution.
 
 # Main Page
 st.title(':bar_chart: Sales Dashboard')
